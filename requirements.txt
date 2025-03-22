@@ -1,0 +1,23 @@
+Below is the section of the Project Summary as it appears starting on page 9 of the document (titled “REQUEST FOR PROPOSALS DAL2024-026 BOX OFFICE TICKETING SOFTWARE – PROPOSAL REQUIREMENTS”). The text is provided verbatim in plain text form:
+
+A. INTRODUCTION & OVERVIEW
+
+As Dalhousie Arts Centre seeks to expand and adapt our business model to include self-produced programming, and support ticketing services for a growing portfolio of venues and events, we are soliciting proposals from experienced and qualified proponents to ensure that we have the best ticketing software product to meet our needs. We are seeking a 'white label' solution that can be implemented with no vendor branding and operate as a single tenant/standalone client environment. In other words, the implemented solution should look and function like Dalhousie Arts Centre's exclusive ticketing software. It is an operational priority for us to improve the quality of our online ticket buying experience to reduce our demand for staff involvement in sales. The successful proponent will provide ticketing software with conversion of all pertinent data, a comprehensive staff training and support plan, and online, phone, and walk-up ticket sales capabilities. Consideration will also be given to CRM functionality for future marketing and fundraising functionality not currently in place in our business operations. A smooth, well-planned conversion is essential, completing by placing the software or service in operation as early as reasonably practical for both Dalhousie Arts Centre and the Proponent. The successful firm will demonstrate expertise in providing box office software and bringing knowledge of best practices to the engagement.
+B. BACKGROUND
+
+Dalhousie Arts Centre is currently running Audience View Unlimited v7.36.
+
+Dalhousie Arts Centre provides ticketing for upwards of 170 performances each year, of which 50-60 are part of flexible subscription packages in multiple venues. Sales are by internet, mail, phone, and walk-up.
+
+Our estimated annual sales volume is approximately 120,000 tickets, inclusive of comps, with approximately 76% of sales online, 14% of sales by phone, and approximately 10% in-person.
+
+C. PROJECT SCOPE
+
+The scope of work includes: Implementation and hosting of software, working with Dalhousie teams to integrate systems and information. The degree of effort to implement and host software will vary depending on the Vendor’s responses.
+
+1.1 Building platform and migrating information, resources, content from existing platform
+1.2 Integration work with Dalhousie systems through ITS team
+1.3 Training of Dalhousie staff on new platform
+1.4 Support through Contract period
+
+The purpose of this RFP is to solicit proposals from firms interested in providing Box Office Ticketing Software, ideally as a Software as A Service (SAAS) offering, along with support and maintenance for all components. The intention is to generate a turn-key ticketing solution that integrates all current ticketing technologies and distribution avenues and allows for growth in the future as new technologies emerge. Additional functionality, including CRM features relevant for marketing and fundraising purposes, space scheduling, and database functionality for production information will all be considered in our evaluation. All proposals should demonstrate an understanding of the software, hardware, and scope of work and convey the ability to accomplish a smooth transition. The proposal must include information that will enable the University to determine the Proposer’s overall qualifications.
