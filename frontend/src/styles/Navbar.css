@@ -1,0 +1,154 @@
+.navbar {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  height: 70px;
+}
+
+.navbar-logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo-text {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #1a73e8;
+}
+
+.navbar-links {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-links li {
+  margin: 0 0.5rem;
+}
+
+.navbar-links li a {
+  color: #333;
+  font-weight: 500;
+  padding: 0.5rem 0.75rem;
+  border-radius: 4px;
+  transition: all 0.2s;
+}
+
+.navbar-links li a:hover,
+.navbar-links li a.active {
+  color: #1a73e8;
+  background-color: rgba(26, 115, 232, 0.1);
+}
+
+.auth-links {
+  display: flex;
+  align-items: center;
+  margin-left: 1rem;
+}
+
+.auth-button {
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  color: #fff;
+  background-color: #1a73e8;
+  font-weight: 500;
+  transition: all 0.2s;
+  margin-left: 0.5rem;
+}
+
+.auth-button:hover {
+  background-color: #1557b0;
+  color: #fff;
+}
+
+.auth-button-secondary {
+  background-color: transparent;
+  color: #1a73e8;
+  border: 1px solid #1a73e8;
+}
+
+.auth-button-secondary:hover {
+  background-color: rgba(26, 115, 232, 0.1);
+  color: #1a73e8;
+}
+
+.mobile-menu-toggle {
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 2rem;
+  height: 1.5rem;
+  cursor: pointer;
+}
+
+.mobile-menu-toggle span {
+  height: 3px;
+  width: 100%;
+  background-color: #333;
+  border-radius: 3px;
+  transition: all 0.3s;
+}
+
+@media (max-width: 768px) {
+  .mobile-menu-toggle {
+    display: flex;
+  }
+
+  .navbar-menu {
+    position: fixed;
+    top: 70px;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+  }
+
+  .navbar-menu.active {
+    max-height: 500px;
+    transition: max-height 0.5s ease-in;
+  }
+
+  .navbar-links {
+    flex-direction: column;
+    padding: 1rem;
+  }
+
+  .navbar-links li {
+    margin: 0.5rem 0;
+    width: 100%;
+  }
+
+  .navbar-links li a {
+    display: block;
+    padding: 0.75rem;
+    text-align: center;
+  }
+
+  .auth-links {
+    flex-direction: column;
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .auth-button {
+    margin: 0.5rem 0;
+    display: block;
+    text-align: center;
+    width: 100%;
+  }
+} 
